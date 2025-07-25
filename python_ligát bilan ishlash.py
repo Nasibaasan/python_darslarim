@@ -27,13 +27,56 @@ print(f"{talaba_0['ism']},{talaba_0['yosh']}da")
 #talaba_1['kurs']=2
 #rint(f"{talaba_1['ism'].title()} {talaba_1['familiya']} {talaba_1['kurs']}da oqiydi")
 
-del talaba_0['yosh']
-print(talaba_0)
+#del talaba_0['yosh']
+#print(talaba_0)
 
   #get metodi
-telefonlar={
-    'Ali':'iphonex',
-    'vali':'edme',
-    'nasiba':'iphone 11',
-    }
-print(telefonlar)
+#telefonlar={
+   # 'Ali':'iphonex',
+   # 'vali':'edme',
+   # 'nasiba':'iphone 11',
+   # }
+#print(telefonlar)
+
+#otam={'ism':'Gulomjon','t_yil':'1970','yosh':'55'}
+#print(f"Otam {otam['ism']}, {otam['t_yil']} da tugilgan, {otam['yosh']}da")
+
+python_izohli_lugati={
+    'integer':"Butun son",
+    'float':"O'nlik son",
+    'string':"Matn",
+    'list':"Ro'yxat",
+    'tuple':"O'zgarmas ro'yxat"}
+
+kalit=input('Iltimos kalit soz kiriting')
+print(python_izohli_lugati.get(kalit, 'bunday kalit soz mavjud emas'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
